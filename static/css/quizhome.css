@@ -1,0 +1,123 @@
+body, html {
+  margin: 0;
+  font-size: 18px;
+  background-color: #cccccc;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.custom-box{
+  margin: 40px auto;
+  max-width: 500px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: none;
+  line-height: 40px;
+}
+.hide{
+  display: none;
+}
+.home-box .btn{
+  margin-top: 20px;
+}
+.btn{
+  padding: 15px 45px;
+  background: #808080;
+  color: #fff;
+  border: #808080;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.rbtn{
+  padding: 15px 45px;
+  background: #808080;
+  color: #fff;
+  border: #808080;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mbtn{
+  padding: 15px 45px;
+  background: #808080;
+  color: #fff;
+  border: #808080;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.quiz-box .question-number{
+  text-align: center;
+  font-weight: 500;
+  font-family: "PT+Sans", serif;
+  font-size: 18px;
+}
+.quiz-box .question-text{
+  margin-bottom: 10px;
+  font-family: "PT+Sans", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #010101;
+}
+.quiz-box .option-container .option.correct::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  z-index: -1;
+  animation: slideInLeft .5s ease forwards;
+}
+@keyframes slideInLeft {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+.quiz-box .option-container .option.correct{
+  color:#ffffff;
+}
+.quiz-box .option-container .option.incorrect::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  z-index: -1;
+  animation: slideInLeft .5s ease forwards;
+}
+@keyframes slideInLeft {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+.quiz-box .option-container .option.incorrect{
+  color:#ffffff;
+}
+.quiz-box .option-container .option.cannot-select{
+  pointer-events: none;
+}
+.quiz-box .option-container .option{
+  position: relative;
+  overflow: hidden;
+  background-color: #cccccc;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 30px;
+  color:#000000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  z-index: 1;
+}

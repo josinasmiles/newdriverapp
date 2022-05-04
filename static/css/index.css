@@ -1,0 +1,104 @@
+a:link {
+    color: none;
+	text-decoration: none;
+}
+a:visited {
+    color: #dc143c;
+	text-decoration: none;
+}
+a:hover {
+    color: #CD5C5C;
+	text-decoration: none;
+}
+a:active {
+    color: none;
+	text-decoration: none;
+}
+body, html {
+  max-height: 100%;
+  margin: 0;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+controls {
+    display: none;
+}
+div.container{
+	position: absolute;
+	max-width: 700px;
+	max-height: 500px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #bfc1c2;
+	border-style: groove;
+}
+#welcome{
+	text-align: center;
+	color: #4169e1;
+	font-family: "Allerta Stencil", serif;
+	font-style: bold;
+	font-size: 3em;
+	font-weight: 900;
+	text-decoration: none;
+}
+button{
+	position:absolute;
+	height:30px;
+  width:100px;
+  margin: 0px;
+  top:40%;
+  left:42%;
+	background-color: #32cd32;
+	color: #111;
+	font-size: 16px;
+}
+.btn{
+  margin: 0px;
+  top:40%;
+  left:35%;
+  padding: 5px 20px 5px 20px;
+  width: 30%;
+  background: #808080;
+  color: #fff;
+  border: #808080;
+  border-radius: 10px;
+  cursor: pointer;
+}
+img#bluecar{
+	position: absolute;
+	margin: 60px;
+  left: 52px;
+	max-width: 100%;
+  animation: slideInLeft 1s ease forwards;
+}
+@keyframes slideInLeft {
+0%{
+  transform: translateX(-100%);
+}
+100% {
+  transform: translateX(0%);
+  }
+}
+#caption{
+  border: none;
+  opacity: 0.85;
+  max-width: 420px;
+  max-height: auto;
+  margin: 200px auto;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  font-size: 25px;
+}

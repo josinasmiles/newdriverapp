@@ -1,0 +1,93 @@
+a:link {
+    color: none;
+	text-decoration: none;
+}
+a:visited {
+    color: #dc143c;
+	text-decoration: none;
+}
+a:hover {
+    color: #CD5C5C;
+	text-decoration: none;
+}
+a:active {
+    color: none;
+	text-decoration: none;
+}
+body, html {
+  max-height: 100%;
+  margin: 0;
+  background-color:#bfc1c2;
+}
+div.container{
+	position: absolute;
+	max-width: 700px;
+	max-height: 500px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+  background-color: #ffffff;
+	border-style: groove;
+}
+.drive{
+  padding: 5px;
+  margin:0px;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+	color: #4169e1;
+	font-family: "Allerta Stencil", serif;
+	font-style: bold;
+	font-size: 1em;
+	font-weight: 500;
+	text-decoration: none;
+}
+img{
+  vertical-align: middle;
+  margin: 0 auto;
+  top: 40px;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+#bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: 10px;
+  width: 10%;
+  background: #808080;
+  color: #fff;
+  border: #808080;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  padding: 10px;
+  width: 10%;
+  background: #808080;
+  color: #fff;
+  border: #808080;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.top-left {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  background-color: #111;
+  max-width: 40%;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Slabo 27px", serif;
+  line-height: 1.5;
+  font-size: 16px;
+  opacity: 0.9;
+}

@@ -1,0 +1,115 @@
+a:link {
+    color: none;
+	text-decoration: none;
+}
+a:visited {
+    color: #dc143c;
+	text-decoration: none;
+}
+a:hover {
+    color: #CD5C5C;
+	text-decoration: none;
+}
+a:active {
+    color: none;
+	text-decoration: none;
+}
+body, html {
+  max-height: 100%;
+  margin: 0;
+  background-color:#bfc1c2;
+}
+#welcome{
+	margin:0px;
+  padding: 5px;
+  float:left;
+  color: #4169e1;
+	font-family: "Allerta Stencil", serif;
+	font-style: bold;
+	font-size: 1em;
+	font-weight: 500;
+	text-decoration: none;
+}
+#module{
+	margin:0px;
+  padding: 5px;
+  float: right;
+  color: #4169e1;
+	font-family: "Allerta Stencil", serif;
+	font-style: bold;
+	font-size: 1em;
+	font-weight: 500;
+	text-decoration: none;
+}
+#quiz{
+  text-align: left;
+  line-height: 2;
+  font-style: normal;
+  padding: 5px;
+}
+div.container{
+	position: absolute;
+	max-width: 700px;
+	max-height: 500px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+  background-color: #e7e6e6;
+	border-style: groove;
+}
+/*Quiz Questions*/
+.question-number{
+  text-align: center;
+  font-weight: 500;
+  font-family: fantasy;
+  font-size: 18px;
+}
+.quiz-container{
+  margin: 60px 20px 0px 20px;
+  vertical-align: middle;
+  border: none;
+}
+.qtitle{
+  border: 1px blue;
+  text-align: center;
+  font-weight: bolder;
+  font color:lighter;
+  color: red;
+  font-size: 18px;
+}
+.question-text{
+  margin-bottom: 10px;
+  font-family: "PT+Sans", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #010101;
+}
+.quiz-container .option-container{
+  background-color: #cccccc;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 30px;
+  color:#000000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.btn {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/*Quiz Results*/
+.result-box{
+  text-align: center;
+}
+.result-box table{
+  max-width: 100%;
+  border-collapse: collapse;
+}
+.result-box table td{
+  border: 1px solid #cccccc;
+}

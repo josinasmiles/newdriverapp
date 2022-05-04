@@ -1,0 +1,79 @@
+a:link {
+    color: none;
+	text-decoration: none;
+}
+a:visited {
+    color: #dc143c;
+	text-decoration: none;
+}
+a:hover {
+    color: #CD5C5C;
+	text-decoration: none;
+}
+a:active {
+    color: none;
+	text-decoration: none;
+}
+body, html {
+  max-height: 100%;
+  margin: 0;
+  background-color:#bfc1c2;
+}
+div.container{
+	position: absolute;
+	max-width: 700px;
+	max-height: 500px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+  background-color: #fdfff5;
+	border-style: groove;
+}
+#welcome{
+	margin:0px;
+  color: #4169e1;
+	font-family: "Allerta Stencil", serif;
+	font-style: bold;
+	font-size: 1em;
+	font-weight: 500;
+	text-decoration: none;
+}
+article{
+  margin: 10px 5px 10px 5px;
+  font-size: 15px;
+  float:right;
+  max-width: 100%;
+}
+p.thick{
+  font-weight: bold;
+}
+img{
+  float: left;
+  margin: 0;
+  display: block;
+  max-width: 100px;
+  max-height: 100px;
+  padding:0px 10px 0px 0px;
+}
+#btn1{
+	/*position:absolute;*/
+  float:left;
+	height:30px;
+  width:100px;
+  margin:60;
+  background-color: #32cd32;
+	color: #111;
+	font-size: 16px;
+}
+#btn2{
+	/*position:absolute;*/
+  float:right;
+	height:30px;
+  width:100px;
+  margin:60;
+	background-color: #32cd32;
+	color: #111;
+	font-size: 16px;
+}

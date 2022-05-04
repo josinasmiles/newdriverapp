@@ -1,0 +1,27 @@
+Q.1: To obtain a permit a person must be how old when they apply?
+    option 0: 15
+    option 1: 18
+    option 2: 16
+    option 3: 21
+
+Q.2: At the time of your road test, you must present:
+    option 0: a valid vehicle registration
+    option 1: a valid learner’s permit
+    option 2: a valid insurance ID card
+    option 3: all the above
+
+Q.3: Drivers can schedule their driving test how many months in advance:
+    option 0: 2 month
+    option 1: 4 months
+    option 2: 9 months
+    option 3: 6 months
+
+Q.4: How many correct answers are needed to pass the Knowledge Test?
+    option 0: 9
+    option 1: 15
+    option 2: 6
+    option 3: 12
+
+Q.5: You have three (3) chances to pass the Road Test before your learner's permit expires:
+    option 0: true
+    option 1: false
