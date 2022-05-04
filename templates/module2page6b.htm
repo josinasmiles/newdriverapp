@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/yeild.png")}}"></td>
+        <td>YIELD signs are triangular (3-sided) in shape. When you see this sign, you must slow down and
+          check for traffic and give the right-of-way to pedestrians and approaching cross traffic. You stop
+          only when it is necessary. Proceed when you can do so safely without interfering with normal
+          traffic flow. Remember, you must have a sufficient gap in traffic before you can continue on at
+          either STOP or YIELD sign locations.</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/tooncomingtraffic.png")}}"></td>
+        <td>This sign is used in conjunction with a yield sign at a one-lane bridge or underpass location to alert
+          motorists the one-lane roadway requires them to yield the right-of-way to opposing traffic.</td>
+    </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg6')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg7')}}">Continue</a></button>
+</div>
+</body>
+</html>

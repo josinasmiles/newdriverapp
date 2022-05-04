@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <!--<tr><th colspan="2">REGULATORY SIGNS</br> Regulatory signs tell you what you must do, or must not do,
+      according to the law.</th></tr>
+    <tr>-->
+      <td><img src="{{ url_for('static', filename="images/wrongway.png")}}"></td>
+        <td>The DO NOT ENTER and WRONG WAY signs work as a team. The DO NOT
+          ENTER sign is put at the beginning of one-way streets and ramps. When you
+          see this sign, do not drive onto that street or ramp in the direction you are
+          heading.</br>
+          WRONG WAY signs are placed farther down the one-way street or ramp. They are
+          placed there to catch your attention, if you accidentally turn onto the street or ramp.</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/notrucksbikesped.png")}}"></td>
+        <td>NO TRUCKS, NO BICYCLES and NO PEDESTRIAN CROSSING Operators of trucks, bicycles and pedestrians
+          may not use roadways where these signs are posted.</td>
+    </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg6b')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg8')}}">Continue</a></button>
+</div>
+</body>
+</html>

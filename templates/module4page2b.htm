@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Records & Safety</h5>
+  <div class="sign">
+  <table>
+      <tr><td><b>Weather conditions</b></td>
+        <td>When the road surface is wet or icy, motorcyclists’ braking and handling abilities are impaired.</td>
+      </tr>
+
+      <tr><td><b>Strong winds</b></td>
+        <td>A strong gust of wind can move a motorcycle across an entire lane if the rider is not prepared for
+          it. Wind gusts from large trucks in the other lane can be a real hazard.</td>
+      </tr>
+
+      <tr><td><b>Large vehicles</b></td>
+        <td>A large vehicle, such as a van or truck, can block a motorcycle from a driver’s view. The motorcyclist
+          may seem to suddenly appear from nowhere.</td>
+      </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod4pg2')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod4pg3')}}">Continue</a></button>
+</div>
+</body>
+</html>

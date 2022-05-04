@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/nouturn.png")}}"></td>
+        <td>This sign prohibits U-turns. Do not make a complete turn to go in the opposite direction.</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/norightturn.png")}}"></td>
+        <td>This sign indicates right turns are prohibited. Do not make a right turn at this intersection.</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/noleftturn.png")}}"></td>
+        <td>This sign indicates left turns are prohibited. Do not make a left turn at this intersection. </td>
+    </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg7')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg8b')}}">Continue</a></button>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/donopass.png")}}"></td>
+        <td><b>DO NOT PASS</b> This sign may be placed in areas where you may not pass any vehicles going in the same direction.
+          It is often accompanied by the yellow pennant-shaped sign that says <b>NO PASSING ZONE</b> (Refer to “Warning Signs”).</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/onlyturns.png")}}"></td>
+        <td>This sign indicates that at the intersection ahead traffic in the left lane
+          must turn left and traffic in the adjoining lane may turn left or continue straight.</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/centerlaneonly.png")}}"></td>
+        <td><b>CENTER LANE LEFT TURN ONLY</b> This sign indicates where a lane is reserved for the exclusive use
+          of left-turning vehicles in either direction and is not to be used for through traffic or passing.</td>
+    </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg8b')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg10')}}">Continue</a></button>
+</div>
+</body>
+</html>

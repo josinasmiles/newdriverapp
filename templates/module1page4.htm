@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&family=Source+Serif+Pro:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h5 class="drive">Drive Like A Pro</h5>
+<h5 class="module">Learner's Permit</h5>
+<div class="sub-container">
+<article>
+<h2>Young drivers can schedule their skills test up to six (6) months in advance:</h2>
+<p>All items must be valid and for the vehicle you are using for your Road Test.
+  The license examiner will check to see that your vehicle meets the requirements.</p>
+</article>
+  <img src="{{ url_for('static', filename="images/man.png")}}">
+</div>
+  <button id="bottom-left" type="button"><a href="{{ url_for('mod1pg3')}}">Previous</a></button>
+  <button id="bottom-right" type="button"><a href="{{ url_for('mod1pg4b')}}">Continue</a></button>
+</div>
+</body>
+</html>

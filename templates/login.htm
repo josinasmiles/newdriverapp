@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/login.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h5 class="drive">Drive Like A Pro</h5>
+<h1>Login</h1>
+<div class="sub-container">
+<form action="submit" method="post">
+        {% for message in get_flashed_messages() %}
+          <p class="instrct"> {{message}} </p>
+        {%endfor%}
+        <br>
+        <div>
+        <input type="text" name="name_input" id="name">
+        </div><br>
+        <input class="btn" type="submit" value="submit" id="submit">
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&family=Source+Serif+Pro:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h5 class="drive">Drive Like A Pro</h5>
+<h5 class="module">Learner's Permit</h5>
+<div class="sub-container">
+  <article>
+  <h2>Test must be completed successfully to receive the learner's permit:</h2>
+  <p>The <b>Knowledge Test</b> consists of <b>18</b> multiple choice questions. You must
+  answer <b>15</b> questions correctly to pass the test.</p>
+  </article>
+  <img src="{{ url_for('static', filename="images/test.png")}}">
+</div>
+  <button id="bottom-left" type="button"><a href="{{ url_for('mod1pg2')}}">Previous</a></button>
+  <button id="bottom-right" type="button"><a href="{{ url_for('mod1pg4')}}">Continue</a></button>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Learning to Drive</h5>
+  <div class="sign">
+  <table>
+    <tr><th colspan="2"> VEHICLE CHECKS: PREPARING TO DRIVE</br>
+      You have important choices to make – sometimes even before you start your vehicle – that will affect your safety
+      when you are behind the wheel.</th></tr>
+    <tr>
+      <td><b>Tire Safety</b></td>
+        <td>Be sure your tires have adequate tread and air pressure prior to driving your car. Prior to entering the vehicle, check tire pressure using the recommended psi
+          (pounds per square inch) located in the vehicle owner's manual or the driver's side door jamb of the vehicle.
+          Use a tire pressure gauge to check your psi. Check your tires “cold” - before you’ve driven or at least three
+          hours after you’ve driven.
+          </td>
+      </tr>
+
+      <tr>
+        <td><b>Fluids</b></td>
+        <td>Check all fluid levels, i.e. engine oil, windshield washer, and fuel and fill as needed as per vehicle
+          owner's manual.</td>
+      </tr>
+
+      <tr><td><b>Adjust the driver’s seat</b></td>
+        <td>You must be able to easily reach the pedals and other controls and have a clear
+          view out the windshield. Your owner’s manual provides information about how to adjust your vehicle’s equipment.</td>
+      </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod3home')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod3pg2')}}">Continue</a></button>
+</div>
+</body>
+</html>

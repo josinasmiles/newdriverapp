@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr><th colspan="2">REGULATORY SIGNS</br> Regulatory signs tell you what you must do, or must not do,
+      according to the law.</th></tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/stop.png")}}"></td>
+        <td>The STOP sign is the only octagon-shaped (8-sided) sign you see on the highway. At an
+          intersection with a STOP sign, you must stop completely, check for pedestrians and cross traffic
+          to clear the intersection before you go again.</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/exceptrightturn.png")}}"></td>
+        <td>This sign is also used in conjunction with stop signs. This sign allows motorists to make the right turn
+          without stopping.</td>
+    </tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/stop4way.png")}}"></td>
+        <td><b>A FOUR-WAY STOP</b> sign means there are four stop signs at this intersection. Traffic from all four
+          directions must stop. The first vehicle to reach the intersection should move forward first.</td>
+    </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg5b')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg6b')}}">Continue</a></button>
+</div>
+</body>
+</html>

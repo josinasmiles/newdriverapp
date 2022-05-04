@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr><th colspan="2">Traffic signals are installed at intersections to control the movement of vehicles and
+      pedestrians. Traffic signals are arranged in either vertical lines or horizontal lines.</th></tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/redlight.png")}}"></td>
+        <td>When there is a <span style="color:red"><b>STEADY RED LIGHT</b></span>, you must stop before crossing the marked stop line or crosswalk.
+        You may turn right while the light is red, unless a NO TURN ON RED sign is posted at the intersection.
+        You must first stop, check for and yield to pedestrians and other traffic.You may also turn left after you stop at a red light, if you are in the left lane and are turning left from a
+        one-way street onto another one-way street, unless a sign tells you not to turn. You must first stop and
+        yield to pedestrians and other traffic.</td>
+      </tr>
+
+      <tr>
+        <td><img src="{{ url_for('static', filename="images/yellowlight.png")}}"></td>
+        <td>A <span style="color:yellow"><b>STEADY YELLOW LIGHT</b></span> tells you a steady red light will soon appear. If you are driving toward an
+          intersection and a yellow light appears, slow down and prepare to stop. If you are within the
+          intersection or cannot stop safely before entering the intersection, continue through carefully.</td>
+      </tr>
+
+      <tr><td><img src="{{ url_for('static', filename="images/greenlight.png")}}"></td>
+        <td>A <span style="color:green"><b>STEADY GREEN LIGHT</b></span> means you may drive through the intersection, if the road is clear. You may
+          also turn right or left unless a sign tells you not to; however, when turning, you must yield to other
+          vehicles and pedestrians within the intersection.</td>
+      </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2home')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg2')}}">Continue</a></button>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/index0.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h5 class="drive">Drive Like A Pro</h5>
+  <img src="{{ url_for('static', filename="images/womandriving.jpg")}}">
+  <div class="top-left">DRIVING IS A PRIVILEGE AND NOT A RIGHT.
+    THIS PRIVILEGE COMES WITH MANY RESPONSIBILITIES.
+    ONE VERY IMPORTANT RESPONSIBILITY IS THAT YOU NEVER
+    MIX DRINKING AND DRIVING.
+  </div>
+<button id="bottom-left" type="button"><a href="{{ url_for('login')}}">Previous</a></button>
+<button id="bottom-right" type="button"><a href="{{ url_for('nf2')}}">Continue</a></button>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr><th colspan="2">LANE USE CONTROL SIGNALS</br> Special signals may also be placed directly over lanes to control traffic.</th></tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/greenarrowlane.png")}}"></td>
+        <td>A <b>steady downward green arrow</b> over a traffic lane means you may use the lane.</td>
+      </tr>
+
+      <tr>
+        <td><img src="{{ url_for('static', filename="images/yellowxlane.png")}}"></td>
+        <td>A <b>steady yellow “X”</b> over a traffic lane means you must change lanes because the direction of travel
+          for that lane is about to be reversed. Get ready to leave the lane safely. </td>
+      </tr>
+
+      <tr><td><img src="{{ url_for('static', filename="images/redxlane.png")}}"></td>
+        <td>A <b>steady red “X”</b> over a lane means you are not allowed to use the traffic lane.</td>
+      </tr>
+
+      <!--<tr><td><img src="{{ url_for('static', filename="images/whiteleftlane.png")}}"></td>
+        <td>A <b>white steady, one-way left-turn arrow</b> over a lane means you may only turn left, if you are in that lane.</td>
+      </tr>-->
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg2')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg4')}}">Continue</a></button>
+</div>
+</body>
+</html>

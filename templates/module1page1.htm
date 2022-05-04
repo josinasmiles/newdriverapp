@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&family=Source+Serif+Pro:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Learner's Permit</h5>
+    <div class="sub-container">
+        <article>
+          <h2>You must be at least <b>16 years</b> of age to apply for a Learner's Permit:</h2>
+          <p>You cannot apply for your permit before your 16th birthday. The Department will
+        also collect your <b>Social Security number(SSN)</b>,<b>height</b>, and <b>eye color.</b></p>
+        </article>
+        <img src="{{ url_for('static', filename="images/girl.png")}}">
+    </div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod1home')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod1pg2')}}">Continue</a></button>
+</div>
+</body>
+</html>

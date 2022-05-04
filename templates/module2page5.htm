@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr><th colspan="2">RAILROAD CROSSING SIGNALS</br> Drivers are alerted when approaching a railroad crossing
+      by the railroad crossing sign.</th></tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/railroadcrossing.png")}}"></td>
+        <td>Railroad crossings should be approached with caution at all times. You should always
+          look both ways and listen for any approaching trains or signals before proceeding across
+          the railroad tracks. You are required to stop at all railroad crossings when there is a
+          signal of an approaching train. These signals include flashing red lights, a lowered crossing
+          gate, a flagger signaling or a train’s audible signal of warning. <b>Do not</b> move forward or attempt
+          to go around any gate or ignore any signal of an approaching train. If there are no signals at the
+          railroad crossing, you should slow down and prepare to stop, if you see or hear a train approaching.</td>
+      </tr>
+
+      <!--<tr>
+        <td><img src="{{ url_for('static', filename="images/railway.png")}}"></td>
+        <td><b>RAILROAD CROSSBUCK SIGN</b> This sign is placed at a railroad crossing where the tracks cross
+          the roadway. You should treat the crossbuck sign as a YIELD sign; slow down and prepare to stop,
+          if you see or hear a train approaching. Refer to Chapter 3 for more information about railroad
+          crossing safety.</td>
+      </tr>-->
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg4b')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg5b')}}">Continue</a></button>
+</div>
+</body>
+</html>

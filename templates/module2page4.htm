@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Drive Like A Pro</title>
+ <link href="{{ url_for('static', filename="css/pages.css")}}" rel="stylesheet" type="text/css">
+ <meta charset="utf-8">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/css?family=Lexend+Mega|Montserrat|PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h5 class="drive">Drive Like A Pro</h5>
+  <h5 class="module">Signs, Signals & Pavement Markings</h5>
+  <div class="sign">
+  <table>
+    <tr><th colspan="2">PEDESTRIAN SIGNALS</br> Pedestrians must obey traffic and pedestrian signals.</th></tr>
+    <tr>
+      <td><img src="{{ url_for('static', filename="images/walkped.png")}}"></td>
+        <td>When a steady WALK or walking person comes on, start crossing, but be
+          alert for turning vehicles that may not lawfully yield the right of way.</td>
+      </tr>
+
+      <tr>
+        <td><img src="{{ url_for('static', filename="images/dontwalkped.png")}}"></td>
+        <td>When the <b>flashing DON’T WALK</b> or <b>flashing upraised hand</b> begins:</br>
+          a. Finish crossing, if you are in the street.</br>
+          b. Do not start to cross, if you have  not left the curb.</td>
+      </tr>
+  </table>
+</div>
+      <button id="bottom-left" type="button"><a href="{{ url_for('mod2pg3b')}}">Previous</a></button>
+      <button id="bottom-right" type="button"><a href="{{ url_for('mod2pg4b')}}">Continue</a></button>
+</div>
+</body>
+</html>
